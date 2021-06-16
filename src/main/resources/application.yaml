@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: rueckgabe-service
+  kafka:
+    bootstrap-servers: localhost:9092
+
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false
+
+server:
+  port: 8082
+
+management:
+  endpoint:
+    health:
+      show-details: always
+
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+    prometheus:
+      enabled: true
+
