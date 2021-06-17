@@ -1,0 +1,11 @@
+2021-06-17 15:10:39,432 INFO org.springframework.boot.StartupInfoLogger [main] Starting RueckgabeApplication using Java 13.0.5.1 on Thomass-MacBook-Pro-3.local with PID 72475 (/Users/thomas/kurs/scooter/scooter-rueckgabe-service/target/classes started by thomas in /Users/thomas/kurs/scooter/scooter-rueckgabe-service)
+2021-06-17 15:10:39,436 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-06-17 15:10:40,621 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2021-06-17 15:10:40,632 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2021-06-17 15:10:40,633 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-06-17 15:10:40,633 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-17 15:10:40,699 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-06-17 15:10:40,699 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1207 ms
+2021-06-17 15:10:41,276 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2021-06-17 15:10:41,291 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2021-06-17 15:10:41,490 INFO org.springframework.boot.StartupInfoLogger [main] Started RueckgabeApplication in 2.696 seconds (JVM running for 3.07)
