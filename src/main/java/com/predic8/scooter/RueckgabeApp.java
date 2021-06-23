@@ -14,10 +14,10 @@ import springfox.documentation.swagger.web.UiConfigurationBuilder;
 import java.time.LocalDate;
 
 @SpringBootApplication
-public class RueckgabeApplication {
+public class RueckgabeApp {
 
     public static void main(String[] args) {
-        SpringApplication.run(RueckgabeApplication.class, args);
+        SpringApplication.run(RueckgabeApp.class, args);
     }
 
     @Bean

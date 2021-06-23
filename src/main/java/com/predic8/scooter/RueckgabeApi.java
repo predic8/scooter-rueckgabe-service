@@ -20,14 +20,11 @@ public class RueckgabeApi {
     @Autowired
     ObjectMapper om;
 
-    @Autowired
-    KafkaTemplate<String, String> template;
-
     @PostMapping("/scooter/{id}/rueckgabe")
     public ResponseEntity rueckgabe(@PathVariable String id, @RequestBody Rueckgabe rueckgabe) throws JsonProcessingException {
-        System.out.println("Rückgabe triggered");
-        template.send("scooter.rueckgabe", om.writeValueAsString(new RueckgabeDTO(id, rueckgabe)));
-        System.out.println("Rückgabe auf Kafka");
+
+        // Hier Nachricht an Artemis Queue senden
+
         return ok().build();
     }
 
