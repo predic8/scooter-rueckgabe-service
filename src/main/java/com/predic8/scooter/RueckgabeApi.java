@@ -23,7 +23,7 @@ public class RueckgabeApi {
     @PostMapping("/scooter/{id}/rueckgabe")
     public ResponseEntity rueckgabe(@PathVariable String id, @RequestBody Rueckgabe rueckgabe) throws JsonProcessingException {
 
-        // Hier Nachricht an Artemis Queue senden
+        // Hier Nachricht an Kafka Queue senden
 
         return ok().build();
     }
